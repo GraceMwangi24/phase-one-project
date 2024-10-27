@@ -83,6 +83,8 @@ function displayProducts(item){
 }
 
 fetchProducts();
+
+
 // PUT REQUEST 
 function updateProduct(id, formData) {
     fetch(`${baseUrl}/products/${id}`, {
